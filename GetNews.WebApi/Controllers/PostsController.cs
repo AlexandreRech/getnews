@@ -79,6 +79,7 @@ namespace GetNews.WebApi.Controllers
                 return BadRequest(ModelState);
             }
 
+            post.PublishDate = DateTime.Now;
             db.Posts.Add(post);
             db.SaveChanges();
 
