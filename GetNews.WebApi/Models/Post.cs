@@ -11,5 +11,7 @@ namespace GetNews.WebApi.Models
 
         public string Description { get; set; }
 
+        public DateTime PublishDate { get; set; }
+
     }
 }
