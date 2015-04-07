@@ -9,8 +9,7 @@ namespace GetNews.WebApi.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(GetNews.WebApi.Models.GetNewsWebApiContext context)
